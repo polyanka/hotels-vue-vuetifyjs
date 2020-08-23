@@ -1,0 +1,38 @@
+{
+  "hostels": [
+    {
+      "id": 1,
+      "name": "Hostel 1",
+      "img": [
+        "https://images.unsplash.com/photo-1560976811-c5e2754f58e2?w=300",
+        "https://images.unsplash.com/photo-1551133990-70307d02dc94?w=300",
+        "https://images.unsplash.com/photo-1551133988-6a0047afdffc?w=300"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Hostel 2",
+      "img": [
+        "https://images.unsplash.com/photo-1533423996375-f914ab160932?w=300",
+        "https://images.unsplash.com/photo-1534706931367-6263e604581f?w=300"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Hostel 3",
+      "img": [
+        "https://images.unsplash.com/photo-1534706931367-6263e604581f?w=300",
+        "https://images.unsplash.com/photo-1533423996375-f914ab160932?w=300"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hostel 4",
+      "img": [
+        "https://images.unsplash.com/photo-1551133988-6a0047afdffc?w=300",
+        "https://images.unsplash.com/photo-1551133990-70307d02dc94?w=300",
+        "https://images.unsplash.com/photo-1560976811-c5e2754f58e2?w=300"
+      ]
+    }
+  ]
+}

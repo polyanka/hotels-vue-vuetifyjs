@@ -3,36 +3,67 @@
     {
       "id": 1,
       "name": "Hostel 1",
+      "country": "Russia",
+      "raiting": "9.2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non ex arcu. Suspendisse et odio condimentum, interdum diam sed, vulputate diam. Nulla consectetur arcu a urna rhoncus, et consequat orci faucibus.",
       "img": [
         "https://images.unsplash.com/photo-1560976811-c5e2754f58e2?w=300",
         "https://images.unsplash.com/photo-1551133990-70307d02dc94?w=300",
         "https://images.unsplash.com/photo-1551133988-6a0047afdffc?w=300"
-      ]
+      ],
+      "wifi": true,
+      "parking": true,
+      "spa": false,
+      "bar": true,
+      "restaurant": true
     },
     {
       "id": 2,
       "name": "Hostel 2",
+      "country": "Italy",
+      "raiting": "8.9",
+      "description": "Donec iaculis luctus neque condimentum porttitor. Maecenas odio ante, porta quis lacus eget, malesuada faucibus elit. Maecenas vel libero in nisi pretium semper in nec arcu. Vestibulum eu libero felis. Sed eget hendrerit urna.",
       "img": [
         "https://images.unsplash.com/photo-1533423996375-f914ab160932?w=300",
         "https://images.unsplash.com/photo-1534706931367-6263e604581f?w=300"
-      ]
+      ],
+      "wifi": true,
+      "parking": false,
+      "spa": true,
+      "bar": true,
+      "restaurant": true
     },
     {
       "id": 3,
-      "name": "Hostel 3",
+      "country": "Russia",
+      "raiting": "8.6",
+      "description": "Praesent vitae lacinia nisi, quis feugiat tortor. Duis in euismod velit, vel elementum felis. Quisque eleifend magna a laoreet ullamcorper. Donec condimentum porttitor est, semper sagittis justo vehicula ut. Pellentesque auctor.",
       "img": [
         "https://images.unsplash.com/photo-1534706931367-6263e604581f?w=300",
         "https://images.unsplash.com/photo-1533423996375-f914ab160932?w=300"
-      ]
+      ],
+      "wifi": true,
+      "parking": true,
+      "spa": false,
+      "bar": false,
+      "restaurant": false
     },
     {
       "id": 4,
       "name": "Hostel 4",
+      "country": "Italy",
+      "raiting": "9.1",
+      "description": "Aliquam pretium sem ex, sit amet lobortis tellus facilisis condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In gravida efficitur nisl id vestibulum.",
       "img": [
         "https://images.unsplash.com/photo-1551133988-6a0047afdffc?w=300",
         "https://images.unsplash.com/photo-1551133990-70307d02dc94?w=300",
         "https://images.unsplash.com/photo-1560976811-c5e2754f58e2?w=300"
-      ]
+      ],
+      "wifi": true,
+      "parking": false,
+      "spa": false,
+      "bar": true,
+      "restaurant": false
     }
   ]
 }

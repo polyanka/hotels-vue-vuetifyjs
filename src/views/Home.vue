@@ -27,7 +27,7 @@
       </section>
 
       <section v-else>
-        <div v-if="loading">Loading...</div>
+        <Spinner v-if="loading" />
 
         <v-row v-else justify="center">
           <v-col v-for="(hostel, i) in hostels" :key="i" class="mb-5" cols="6">
@@ -49,15 +49,19 @@
 
 <script>
 import axios from 'axios';
+import Spinner from '@/components/Spinner';
 
 export default {
-  name: 'Home page',
+  name: 'HomePage',
   data() {
     return {
       hostels: null,
       loading: true,
       errored: false,
     };
+  },
+  components: {
+    Spinner,
   },
   mounted() {
     axios

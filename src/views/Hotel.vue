@@ -7,7 +7,8 @@
   </section>
 
   <section v-else>
-    <div v-if="loading">Loading...</div>
+    <Spinner v-if="loading" />
+
     <div v-else>
       <v-row>
         <v-col cols="8" class="mx-auto">
@@ -32,9 +33,10 @@
 </template>
 <script>
 import axios from 'axios';
+import Spinner from '@/components/Spinner';
 
 export default {
-  name: 'Hotel page',
+  name: 'HotelPage',
   data() {
     return {
       hostel: null,
@@ -42,7 +44,9 @@ export default {
       errored: false,
     };
   },
-
+  components: {
+    Spinner,
+  },
   computed: {
     id: function() {
       return this.$route.params.id;
